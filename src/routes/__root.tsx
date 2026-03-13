@@ -16,6 +16,7 @@ import Header from '#/components/Header'
 import Footer from '#/components/Footer'
 import NavItem from '#/components/NavItem'
 import CallToAction from '#/components/CallToActionButton'
+import HeroSection from '#/components/HeroSection'
 
 storyblokInit({
   accessToken: import.meta.env.VITE_STORYBLOK_DELIVERY_API_TOKEN,
@@ -29,6 +30,7 @@ storyblokInit({
     footer: Footer,
     'nav-item': NavItem,
     callToAction: CallToAction,
+    heroSection: HeroSection,
   },
   apiOptions: {
     region: 'eu',

@@ -4,7 +4,7 @@
     "display_name": null,
     "description": "",
     "created_at": "2026-03-13T11:16:45.361Z",
-    "updated_at": "2026-03-13T11:17:00.751Z",
+    "updated_at": "2026-03-13T13:56:54.472Z",
     "id": 154464277966597,
     "schema": {
       "title": {
@@ -16,6 +16,25 @@
         "type": "text",
         "pos": 1,
         "id": "wHcGwRc8QqmEA3ELcL_Aww"
+      },
+      "variant": {
+        "type": "option",
+        "pos": 2,
+        "options": [
+          {
+            "_uid": "05116a0a-b945-4040-a2ad-7b0d1a893f78",
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "_uid": "ee9b9a66-da00-48ff-9c05-fb6195cda6e1",
+            "value": "secondary",
+            "name": "secondary"
+          }
+        ],
+        "exclude_empty_option": false,
+        "id": "CqSMnIYKQRusiimZwODCDA",
+        "use_uuid": true
       }
     },
     "image": null,
@@ -217,6 +236,86 @@
     "all_presets": [],
     "preset_id": null,
     "real_name": "header",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "heroSection",
+    "display_name": null,
+    "description": "",
+    "created_at": "2026-03-13T12:56:24.856Z",
+    "updated_at": "2026-03-13T13:43:17.036Z",
+    "id": 154488769974292,
+    "schema": {
+      "bussinesTypeTitle": {
+        "type": "text",
+        "pos": 0,
+        "id": "a_TpKJnwQ7G3Q2ZNShJquw"
+      },
+      "headingFirstLine": {
+        "type": "text",
+        "pos": 1,
+        "id": "9KUmKxLuR_iZLeB5JROABQ"
+      },
+      "keyword": {
+        "type": "text",
+        "pos": 2,
+        "id": "Ocr8gHcMTA25EVx12lGmFg"
+      },
+      "headingSecondLine": {
+        "type": "text",
+        "pos": 3,
+        "id": "U8P-O41TSFaEwSzf_Z03-g"
+      },
+      "subHeading": {
+        "type": "text",
+        "pos": 4,
+        "id": "t50fk1MARRW9h_YmTSvS0g"
+      },
+      "callToAction": {
+        "type": "bloks",
+        "pos": 5,
+        "restrict_type": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "callToAction"
+        ],
+        "component_denylist": [],
+        "id": "4NuVRmuEQJO1LnDYEW2a3A"
+      },
+      "viewProjectAction": {
+        "type": "bloks",
+        "pos": 6,
+        "id": "T4n_LEtQSFGLgBVxxGHOpA",
+        "restrict_type": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "callToAction"
+        ],
+        "component_denylist": []
+      },
+      "image": {
+        "type": "asset",
+        "pos": 7,
+        "id": "2QWI6_6ySgmJ60zVRMTmJw",
+        "filetypes": [
+          "images"
+        ]
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "heroSection",
     "component_group_uuid": null,
     "color": null,
     "icon": null,
