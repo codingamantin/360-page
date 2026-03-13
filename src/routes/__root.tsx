@@ -17,6 +17,8 @@ import Footer from '#/components/Footer'
 import NavItem from '#/components/NavItem'
 import CallToAction from '#/components/CallToActionButton'
 import HeroSection from '#/components/HeroSection'
+import ServicesSection from '#/components/ServicesSection'
+import ServiceItem from '#/components/ServiceItem'
 
 storyblokInit({
   accessToken: import.meta.env.VITE_STORYBLOK_DELIVERY_API_TOKEN,
@@ -31,6 +33,8 @@ storyblokInit({
     'nav-item': NavItem,
     callToAction: CallToAction,
     heroSection: HeroSection,
+    services: ServicesSection,
+    serviceItem: ServiceItem
   },
   apiOptions: {
     region: 'eu',

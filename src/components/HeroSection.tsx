@@ -14,7 +14,7 @@ export default function HeroSection({ blok }: { blok: HeroSection }) {
       {blok.image?.filename && (
         <div className="absolute inset-0">
           <img
-            src={blok.image?.filename}
+            src={blok.image.filename}
             alt="Luxurious modern interior living room with natural materials"
             className="w-full h-full object-cover"
             loading="eager"

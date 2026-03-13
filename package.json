@@ -16,6 +16,7 @@
     "storyblok": "storyblok components pull --space 290932035929349 && storyblok types generate --space 290932035929349"
   },
   "dependencies": {
+    "@iconify/react": "^6.0.2",
     "@storyblok/react": "^6.0.0",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-devtools": "^0.7.0",

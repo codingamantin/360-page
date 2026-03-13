@@ -28,6 +28,8 @@ export interface Footer {
     | HeroSection
     | NavItem
     | Page
+    | ServiceItem
+    | Services
     | Teaser
   )[];
   component: "footer";
@@ -44,7 +46,20 @@ export interface GlobalBlogs {
 }
 
 export interface Grid {
-  columns?: (CallToAction | Feature | Footer | GlobalBlogs | Grid | Header | HeroSection | NavItem | Page | Teaser)[];
+  columns?: (
+    | CallToAction
+    | Feature
+    | Footer
+    | GlobalBlogs
+    | Grid
+    | Header
+    | HeroSection
+    | NavItem
+    | Page
+    | ServiceItem
+    | Services
+    | Teaser
+  )[];
   component: "grid";
   _uid: string;
   [k: string]: unknown;
@@ -82,8 +97,39 @@ export interface NavItem {
 }
 
 export interface Page {
-  body?: (CallToAction | Feature | Footer | GlobalBlogs | Grid | Header | HeroSection | NavItem | Page | Teaser)[];
+  body?: (
+    | CallToAction
+    | Feature
+    | Footer
+    | GlobalBlogs
+    | Grid
+    | Header
+    | HeroSection
+    | NavItem
+    | Page
+    | ServiceItem
+    | Services
+    | Teaser
+  )[];
   component: "page";
+  _uid: string;
+  [k: string]: unknown;
+}
+
+export interface ServiceItem {
+  title?: string;
+  description?: string;
+  icon?: unknown;
+  component: "serviceItem";
+  _uid: string;
+  [k: string]: unknown;
+}
+
+export interface Services {
+  heading?: string;
+  subheading?: string;
+  service?: ServiceItem[];
+  component: "services";
   _uid: string;
   [k: string]: unknown;
 }
