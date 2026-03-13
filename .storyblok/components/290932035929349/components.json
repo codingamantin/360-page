@@ -1,5 +1,40 @@
 [
   {
+    "name": "callToAction",
+    "display_name": null,
+    "description": "",
+    "created_at": "2026-03-13T11:16:45.361Z",
+    "updated_at": "2026-03-13T11:17:00.751Z",
+    "id": 154464277966597,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "egAXibgLT4Ohq8JDpgAj-g"
+      },
+      "href": {
+        "type": "text",
+        "pos": 1,
+        "id": "wHcGwRc8QqmEA3ELcL_Aww"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "callToAction",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
     "name": "feature",
     "display_name": null,
     "description": null,
@@ -143,7 +178,7 @@
     "display_name": null,
     "description": "",
     "created_at": "2026-03-05T15:08:58.991Z",
-    "updated_at": "2026-03-05T15:58:51.760Z",
+    "updated_at": "2026-03-13T11:17:40.167Z",
     "id": 151690194930141,
     "schema": {
       "logo": {
@@ -157,10 +192,21 @@
         "restrict_type": "",
         "restrict_components": true,
         "component_whitelist": [
-          "header-item"
+          "nav-item"
         ],
         "component_denylist": [],
         "id": "xIgmdnY5SWeHUCrc7uMh1Q"
+      },
+      "callToAction": {
+        "type": "bloks",
+        "pos": 2,
+        "restrict_type": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "callToAction"
+        ],
+        "component_denylist": [],
+        "id": "xwBvTVk5TUqHJZDI78dOOw"
       }
     },
     "image": null,
@@ -180,17 +226,22 @@
     "metadata": {}
   },
   {
-    "name": "header-item",
+    "name": "nav-item",
     "display_name": "nav-item",
     "description": "",
     "created_at": "2026-03-05T15:10:20.953Z",
-    "updated_at": "2026-03-05T15:59:12.890Z",
+    "updated_at": "2026-03-12T14:48:49.210Z",
     "id": 151690530646500,
     "schema": {
       "title": {
         "type": "text",
         "pos": 0,
         "id": "EhpiTY5GS_iRF4bC326Ddg"
+      },
+      "href": {
+        "type": "text",
+        "pos": 1,
+        "id": "-AKjz4MPRoqUbx8E81CF6Q"
       }
     },
     "image": null,

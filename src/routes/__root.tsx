@@ -14,7 +14,8 @@ import Feature from '../components/Feature'
 import Grid from '../components/Grid'
 import Header from '#/components/Header'
 import Footer from '#/components/Footer'
-import HeaderItem from '#/components/HeaderItem'
+import NavItem from '#/components/NavItem'
+import CallToAction from '#/components/CallToActionButton'
 
 storyblokInit({
   accessToken: import.meta.env.VITE_STORYBLOK_DELIVERY_API_TOKEN,
@@ -26,7 +27,8 @@ storyblokInit({
     grid: Grid,
     header: Header,
     footer: Footer,
-    'header-item': HeaderItem,
+    'nav-item': NavItem,
+    callToAction: CallToAction,
   },
   apiOptions: {
     region: 'eu',
@@ -78,7 +80,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
         <HeadContent />
       </head>
-      <body className="font-sans antialiased wrap-anywhere selection:bg-[rgba(79,184,178,0.24)]">
+      <body className=" ">
         {headerBlok ? <StoryblokComponent blok={headerBlok} /> : null}
 
         {/* Page content */}
