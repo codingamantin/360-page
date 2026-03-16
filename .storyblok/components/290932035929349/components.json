@@ -1,5 +1,115 @@
 [
   {
+    "name": "aboutSection",
+    "display_name": "About Section",
+    "description": "",
+    "created_at": "2026-03-16T14:51:56.764Z",
+    "updated_at": "2026-03-16T14:51:56.764Z",
+    "id": 155578846277502,
+    "schema": {
+      "image": {
+        "type": "asset",
+        "pos": 0,
+        "id": "ab_image",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "eyebrow": {
+        "type": "text",
+        "pos": 1,
+        "id": "ab_eyebrow"
+      },
+      "headingLine1": {
+        "type": "text",
+        "pos": 2,
+        "id": "ab_heading_line_1"
+      },
+      "headingEmphasis": {
+        "type": "text",
+        "pos": 3,
+        "id": "ab_heading_emphasis"
+      },
+      "paragraph1": {
+        "type": "textarea",
+        "pos": 4,
+        "id": "ab_paragraph_1"
+      },
+      "paragraph2": {
+        "type": "textarea",
+        "pos": 5,
+        "id": "ab_paragraph_2"
+      },
+      "paragraph3": {
+        "type": "textarea",
+        "pos": 6,
+        "id": "ab_paragraph_3"
+      },
+      "stats": {
+        "type": "bloks",
+        "pos": 7,
+        "id": "ab_stats",
+        "restrict_type": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "aboutStat"
+        ],
+        "component_denylist": [],
+        "maximum": 3
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "About Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "aboutStat",
+    "display_name": "About Stat",
+    "description": "",
+    "created_at": "2026-03-16T14:51:52.468Z",
+    "updated_at": "2026-03-16T14:51:52.468Z",
+    "id": 155578828681084,
+    "schema": {
+      "value": {
+        "type": "text",
+        "pos": 0,
+        "id": "as_value"
+      },
+      "label": {
+        "type": "text",
+        "pos": 1,
+        "id": "as_label"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "About Stat",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
     "name": "callToAction",
     "display_name": null,
     "description": "",

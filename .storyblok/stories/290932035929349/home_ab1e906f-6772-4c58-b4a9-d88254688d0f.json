@@ -55,6 +55,36 @@
         ]
       },
       {
+        "_uid": "2ff671d9-2f26-4e43-9982-2fbe7d3c6001",
+        "eyebrow": "About Us",
+        "headingLine1": "Design with",
+        "headingEmphasis": "intention",
+        "paragraph1": "Studio 360 is a boutique interior design practice founded on the belief that great spaces are shaped by listening - to materials, to light, and most importantly, to the people who inhabit them.",
+        "paragraph2": "Our approach balances timeless aesthetics with modern sensibility. We work across residential and commercial projects, bringing the same level of care and craft to a private home as we do to a signature restaurant.",
+        "paragraph3": "Every project begins with a conversation and ends with a space that feels unmistakably yours.",
+        "stats": [
+          {
+            "_uid": "d5c47c50-94fe-4921-865f-b58ca5f03231",
+            "value": "150+",
+            "label": "Projects",
+            "component": "aboutStat"
+          },
+          {
+            "_uid": "38b48e3f-5e7b-4d2e-951a-27d67f7e20ee",
+            "value": "12",
+            "label": "Years",
+            "component": "aboutStat"
+          },
+          {
+            "_uid": "f04e23e5-cc97-4ee5-9fba-28f6a3fdd32f",
+            "value": "8",
+            "label": "Designers",
+            "component": "aboutStat"
+          }
+        ],
+        "component": "aboutSection"
+      },
+      {
         "_uid": "236aa11e-9f49-436a-8577-857619b18391",
         "heading": "what we do",
         "service": [
