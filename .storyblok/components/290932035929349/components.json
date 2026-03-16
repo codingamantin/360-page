@@ -499,6 +499,93 @@
     "metadata": {}
   },
   {
+    "name": "processSection",
+    "display_name": "Process Section",
+    "description": "",
+    "created_at": "2026-03-16T15:19:29.093Z",
+    "updated_at": "2026-03-16T15:19:29.093Z",
+    "id": 155585614229655,
+    "schema": {
+      "heading": {
+        "type": "text",
+        "pos": 0,
+        "id": "proc_heading"
+      },
+      "subheading": {
+        "type": "text",
+        "pos": 1,
+        "id": "proc_subheading"
+      },
+      "steps": {
+        "type": "bloks",
+        "pos": 2,
+        "id": "proc_steps",
+        "restrict_type": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "processStep"
+        ],
+        "component_denylist": [],
+        "maximum": 6
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Process Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "processStep",
+    "display_name": "Process Step",
+    "description": "",
+    "created_at": "2026-03-16T15:19:26.089Z",
+    "updated_at": "2026-03-16T15:19:26.089Z",
+    "id": 155585601908882,
+    "schema": {
+      "num": {
+        "type": "text",
+        "pos": 0,
+        "id": "ps_num"
+      },
+      "title": {
+        "type": "text",
+        "pos": 1,
+        "id": "ps_title"
+      },
+      "desc": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "ps_desc"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Process Step",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
     "name": "projectCard",
     "display_name": "Project Card",
     "description": "",

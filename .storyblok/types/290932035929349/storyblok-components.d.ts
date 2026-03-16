@@ -52,6 +52,8 @@ export interface Footer {
     | HeroSection
     | NavItem
     | Page
+    | ProcessSection
+    | ProcessStep
     | ProjectCard
     | ProjectsSection
     | ServiceItem
@@ -84,6 +86,8 @@ export interface Grid {
     | HeroSection
     | NavItem
     | Page
+    | ProcessSection
+    | ProcessStep
     | ProjectCard
     | ProjectsSection
     | ServiceItem
@@ -139,6 +143,8 @@ export interface Page {
     | HeroSection
     | NavItem
     | Page
+    | ProcessSection
+    | ProcessStep
     | ProjectCard
     | ProjectsSection
     | ServiceItem
@@ -146,6 +152,24 @@ export interface Page {
     | Teaser
   )[];
   component: "page";
+  _uid: string;
+  [k: string]: unknown;
+}
+
+export interface ProcessSection {
+  heading?: string;
+  subheading?: string;
+  steps?: ProcessStep[];
+  component: "processSection";
+  _uid: string;
+  [k: string]: unknown;
+}
+
+export interface ProcessStep {
+  num?: string;
+  title?: string;
+  desc?: string;
+  component: "processStep";
   _uid: string;
   [k: string]: unknown;
 }

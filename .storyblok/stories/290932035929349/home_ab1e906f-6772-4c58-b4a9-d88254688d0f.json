@@ -159,6 +159,56 @@
         "subheading": "Our Services"
       },
       {
+        "_uid": "f0a22be7-ed8e-4dbf-96ef-86c29ebd6aaa",
+        "heading": "How We Work",
+        "subheading": "Design Process",
+        "steps": [
+          {
+            "_uid": "a2281014-4b48-4b7a-ac71-df29eae24b53",
+            "num": "01",
+            "title": "Discovery",
+            "desc": "We listen to your vision, study the space, and define project goals together.",
+            "component": "processStep"
+          },
+          {
+            "_uid": "f542ac2c-a9b5-42ea-9cc3-3eefb6d7df5f",
+            "num": "02",
+            "title": "Concept Design",
+            "desc": "Mood boards, material palettes, and spatial concepts bring direction to the vision.",
+            "component": "processStep"
+          },
+          {
+            "_uid": "f75ef3f4-7ec0-476f-ba36-c91c31381dbb",
+            "num": "03",
+            "title": "Design Development",
+            "desc": "Detailed drawings, 3D renders, and specifications refine every element.",
+            "component": "processStep"
+          },
+          {
+            "_uid": "337a5b6c-b0c5-4c1c-8f48-f0fdbf57e4f7",
+            "num": "04",
+            "title": "Material Selection",
+            "desc": "We source and curate furnishings, finishes, and fixtures for your approval.",
+            "component": "processStep"
+          },
+          {
+            "_uid": "c445fa3f-ec66-4e4a-aac8-f2379e5f655f",
+            "num": "05",
+            "title": "Implementation",
+            "desc": "Our team coordinates all trades and suppliers to bring the design to life.",
+            "component": "processStep"
+          },
+          {
+            "_uid": "3cc74a59-2db6-4b19-a3b0-8614f8d1fb6e",
+            "num": "06",
+            "title": "Final Reveal",
+            "desc": "Styling, quality checks, and the moment you step into your transformed space.",
+            "component": "processStep"
+          }
+        ],
+        "component": "processSection"
+      },
+      {
         "_uid": "b5dfdba5-7f2c-4f71-bbde-8212bfaff28b",
         "heading": "Portfolio",
         "subheading": "Featured Projects",
