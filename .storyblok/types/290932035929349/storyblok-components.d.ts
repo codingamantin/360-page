@@ -217,5 +217,3 @@ export interface Teaser {
   _uid: string;
   [k: string]: unknown;
 }
-
-export type ContentType = Page;
