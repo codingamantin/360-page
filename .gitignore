@@ -11,3 +11,7 @@ dist-ssr
 .vinxi
 __unconfig*
 todos.json
+
+# Storyblok CLI artifacts (may contain tokens/logs)
+.storyblok/logs
+.storyblok/reports

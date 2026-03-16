@@ -1,0 +1,224 @@
+{
+  "name": "Home",
+  "parent_id": 0,
+  "group_id": "e2dcecaf-00a8-4288-9259-b07f571d0f02",
+  "alternates": [],
+  "created_at": "2026-03-04T13:33:57.722Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2026-03-13T16:30:49.614Z",
+  "published_at": "2026-03-13T16:30:49.603Z",
+  "id": 151312948136369,
+  "uuid": "ab1e906f-6772-4c58-b4a9-d88254688d0f",
+  "is_folder": false,
+  "content": {
+    "_uid": "7aba9dd5-2214-4071-8466-6189c076825e",
+    "body": [
+      {
+        "_uid": "0500e185-7841-4b4e-aff8-3a41d5a080d0",
+        "image": {
+          "id": 154494208321239,
+          "alt": "",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://a.storyblok.com/f/290932035929349/1920x1080/05636da780/hero.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": false
+        },
+        "keyword": "shaped for",
+        "component": "heroSection",
+        "subHeading": "We craft residential and commercial spaces that balance beauty, function, and the quiet power of thoughtful design.",
+        "callToAction": [
+          {
+            "_uid": "1edc095e-c57a-4cc6-91b1-23a6c8fe2ed3",
+            "href": "#",
+            "title": "Book a Consultation",
+            "component": "callToAction"
+          }
+        ],
+        "headingFirstLine": "Timeless interiors",
+        "bussinesTypeTitle": "Interior Design Studio",
+        "headingSecondLine": "modern living",
+        "viewProjectAction": [
+          {
+            "_uid": "474023b5-bf69-4fa0-a008-a65e42973fbf",
+            "href": "#",
+            "title": "View Projects",
+            "variant": "primary",
+            "component": "callToAction"
+          }
+        ]
+      },
+      {
+        "_uid": "236aa11e-9f49-436a-8577-857619b18391",
+        "heading": "what we do",
+        "service": [
+          {
+            "_uid": "b9d18652-0e39-4c89-aeab-e0d77c3c6fda",
+            "icon": {
+              "_uid": "c9977b23-ffc6-466a-94a2-7cb823c0497d",
+              "icon": "solar:compass-big-linear",
+              "plugin": "iconify"
+            },
+            "title": "Interior Design",
+            "component": "serviceItem",
+            "description": "Complete design concepts tailored to your lifestyle, from initial mood boards to final styling."
+          },
+          {
+            "_uid": "c41a2e8f-44ae-4c25-9987-18697e9f496e",
+            "icon": {
+              "_uid": "226faf4b-2faa-490f-bcf0-047be9e1fc11",
+              "icon": "tabler:layout-grid",
+              "plugin": "iconify"
+            },
+            "title": "Space Planning",
+            "component": "serviceItem",
+            "description": "Optimized layouts that maximize flow, function, and the feeling of spaciousness."
+          },
+          {
+            "_uid": "3ae1d2d4-180e-4653-8b81-8660c9224c9a",
+            "icon": {
+              "_uid": "719740b7-17a1-4f5b-b269-05840109cf3d",
+              "icon": "iconoir:hammer",
+              "plugin": "iconify"
+            },
+            "title": "Renovation Design",
+            "component": "serviceItem",
+            "description": "Transformative renovation projects guided by precision planning and creative vision."
+          },
+          {
+            "_uid": "b2566c47-dcd7-4aca-9ca5-3cf5e7fc86c7",
+            "icon": {
+              "_uid": "9dcaebd1-c8a1-4d3f-81c2-1aa274d38518",
+              "icon": "tabler:box",
+              "plugin": "iconify"
+            },
+            "title": "3D Visualization",
+            "component": "serviceItem",
+            "description": "Photorealistic renderings that bring your future space to life before construction begins."
+          },
+          {
+            "_uid": "3d615a91-498a-4ead-acf0-dd4cf3321606",
+            "icon": {
+              "_uid": "ad337660-b81a-45e3-b895-d9707483dc11",
+              "icon": "solar:armchair-linear",
+              "plugin": "iconify"
+            },
+            "title": "Furniture & Material Sourcing",
+            "component": "serviceItem",
+            "description": "Curated selections of furnishings, finishes, and materials from trusted artisans."
+          },
+          {
+            "_uid": "ba87a13c-69c4-4a22-ad5b-14f25a615b2c",
+            "icon": {
+              "_uid": "432767ac-4a74-44c1-897c-b8b63930115c",
+              "icon": "tabler:clipboard-check",
+              "plugin": "iconify"
+            },
+            "title": "Turnkey Project Management",
+            "component": "serviceItem",
+            "description": "End-to-end project coordination, so you can enjoy the process and the result."
+          }
+        ],
+        "component": "services",
+        "subheading": "Our Services"
+      },
+      {
+        "_uid": "b5dfdba5-7f2c-4f71-bbde-8212bfaff28b",
+        "heading": "Portfolio",
+        "subheading": "Featured Projects",
+        "projects": [
+          {
+            "_uid": "e95c3cda-2e62-4b3d-b474-e7bb700a2b1e",
+            "title": "Marble & Walnut Kitchen",
+            "category": "Residential",
+            "desc": "A culinary space defined by natural marble and warm walnut cabinetry.",
+            "component": "projectCard"
+          },
+          {
+            "_uid": "d8bca80e-8cf5-4bfa-8a18-1a52829f3f4d",
+            "title": "Serene Master Suite",
+            "category": "Residential",
+            "desc": "Soft textures and muted tones create a sanctuary for rest.",
+            "component": "projectCard"
+          },
+          {
+            "_uid": "4a36e48f-bdbf-4f8e-9b1f-3b1d2b2ce447",
+            "title": "Executive Study",
+            "category": "Commercial",
+            "desc": "A private office where sophistication meets productivity.",
+            "component": "projectCard"
+          },
+          {
+            "_uid": "c3e314c2-f433-43c0-9d5a-6d4c66d4e6a5",
+            "title": "Stone Spa Bathroom",
+            "category": "Residential",
+            "desc": "Raw stone meets modern comfort in this spa-inspired retreat.",
+            "component": "projectCard"
+          },
+          {
+            "_uid": "b2481ab0-61ce-4d5c-b8da-d2c6f2b6b969",
+            "title": "Ember Restaurant",
+            "category": "Commercial",
+            "desc": "Curved forms and warm timber set the tone for intimate dining.",
+            "component": "projectCard"
+          },
+          {
+            "_uid": "6a93e0a5-5580-41e4-8ab4-0e0469e16929",
+            "title": "Skyline Penthouse",
+            "category": "Residential",
+            "desc": "Panoramic views framed by understated luxury.",
+            "component": "projectCard"
+          }
+        ],
+        "component": "projectsSection"
+      }
+    ],
+    "component": "page"
+  },
+  "published": true,
+  "slug": "home",
+  "path": null,
+  "full_slug": "home",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": null,
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "b0b29a5be990f263641beaa8c5650e0e524f3555",
+    "timestamp": "1773420023"
+  },
+  "pinned": false,
+  "breadcrumbs": [],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2026-03-13T15:48:44.712Z",
+  "last_author": {
+    "id": 151312780641783,
+    "userid": "amantin.qamilii@gmail.com",
+    "friendly_name": "amantin qamili"
+  },
+  "last_author_id": 151312780641783,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [],
+  "position": 0,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": 154541463817854,
+  "stage": null,
+  "favourite_for_user_ids": []
+}

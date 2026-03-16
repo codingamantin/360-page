@@ -19,6 +19,8 @@ import CallToAction from '#/components/CallToActionButton'
 import HeroSection from '#/components/HeroSection'
 import ServicesSection from '#/components/ServicesSection'
 import ServiceItem from '#/components/ServiceItem'
+import ProjectCard from '#/components/ProjectCard'
+import ProjectsSection from '#/components/ProjectsSection'
 
 storyblokInit({
   accessToken: import.meta.env.VITE_STORYBLOK_DELIVERY_API_TOKEN,
@@ -34,7 +36,9 @@ storyblokInit({
     callToAction: CallToAction,
     heroSection: HeroSection,
     services: ServicesSection,
-    serviceItem: ServiceItem
+    serviceItem: ServiceItem,
+    projectCard: ProjectCard,
+    projectsSection: ProjectsSection,
   },
   apiOptions: {
     region: 'eu',

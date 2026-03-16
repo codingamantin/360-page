@@ -28,6 +28,8 @@ export interface Footer {
     | HeroSection
     | NavItem
     | Page
+    | ProjectCard
+    | ProjectsSection
     | ServiceItem
     | Services
     | Teaser
@@ -56,6 +58,8 @@ export interface Grid {
     | HeroSection
     | NavItem
     | Page
+    | ProjectCard
+    | ProjectsSection
     | ServiceItem
     | Services
     | Teaser
@@ -107,11 +111,32 @@ export interface Page {
     | HeroSection
     | NavItem
     | Page
+    | ProjectCard
+    | ProjectsSection
     | ServiceItem
     | Services
     | Teaser
   )[];
   component: "page";
+  _uid: string;
+  [k: string]: unknown;
+}
+
+export interface ProjectCard {
+  img?: StoryblokAsset;
+  title?: string;
+  category?: "" | "Residential" | "Commercial";
+  desc?: string;
+  component: "projectCard";
+  _uid: string;
+  [k: string]: unknown;
+}
+
+export interface ProjectsSection {
+  heading?: string;
+  subheading?: string;
+  projects?: ProjectCard[];
+  component: "projectsSection";
   _uid: string;
   [k: string]: unknown;
 }
@@ -140,3 +165,5 @@ export interface Teaser {
   _uid: string;
   [k: string]: unknown;
 }
+
+export type ContentType = Page;
