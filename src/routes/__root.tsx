@@ -23,6 +23,7 @@ import ProjectCard from '#/components/ProjectCard'
 import ProjectsSection from '#/components/ProjectsSection'
 import AboutSection from '#/components/AboutSection'
 import ProcessSection from '#/components/ProcessSection'
+import BeforeAfterSection from '#/components/BeforeAfterSection'
 
 storyblokInit({
   accessToken: import.meta.env.VITE_STORYBLOK_DELIVERY_API_TOKEN,
@@ -43,6 +44,7 @@ storyblokInit({
     projectsSection: ProjectsSection,
     aboutSection: AboutSection,
     processSection: ProcessSection,
+    beforeAfterSection: BeforeAfterSection,
   },
   apiOptions: {
     region: 'eu',

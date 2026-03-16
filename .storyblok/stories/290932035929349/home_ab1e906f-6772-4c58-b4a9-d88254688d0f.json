@@ -209,6 +209,16 @@
         "component": "processSection"
       },
       {
+        "_uid": "f9f37b41-bb3f-4bf2-a70b-1f9d0f758266",
+        "eyebrow": "Transformations",
+        "subheading": "Before & After",
+        "beforeAlt": "Kitchen before renovation",
+        "afterAlt": "Kitchen after renovation",
+        "beforeLabel": "Before",
+        "afterLabel": "After",
+        "component": "beforeAfterSection"
+      },
+      {
         "_uid": "b5dfdba5-7f2c-4f71-bbde-8212bfaff28b",
         "heading": "Portfolio",
         "subheading": "Featured Projects",

@@ -23,6 +23,20 @@ export interface AboutStat {
   [k: string]: unknown;
 }
 
+export interface BeforeAfterSection {
+  eyebrow?: string;
+  subheading?: string;
+  beforeImage?: StoryblokAsset;
+  afterImage?: StoryblokAsset;
+  beforeAlt?: string;
+  afterAlt?: string;
+  beforeLabel?: string;
+  afterLabel?: string;
+  component: "beforeAfterSection";
+  _uid: string;
+  [k: string]: unknown;
+}
+
 export interface CallToAction {
   title?: string;
   href?: string;
@@ -43,6 +57,7 @@ export interface Footer {
   footerItem?: (
     | AboutSection
     | AboutStat
+    | BeforeAfterSection
     | CallToAction
     | Feature
     | Footer
@@ -77,6 +92,7 @@ export interface Grid {
   columns?: (
     | AboutSection
     | AboutStat
+    | BeforeAfterSection
     | CallToAction
     | Feature
     | Footer
@@ -134,6 +150,7 @@ export interface Page {
   body?: (
     | AboutSection
     | AboutStat
+    | BeforeAfterSection
     | CallToAction
     | Feature
     | Footer
@@ -217,3 +234,5 @@ export interface Teaser {
   _uid: string;
   [k: string]: unknown;
 }
+
+export type ContentType = Page;

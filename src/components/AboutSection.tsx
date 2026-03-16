@@ -21,7 +21,7 @@ export default function AboutSection({ blok }: { blok: AboutSection }) {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="overflow-hidden bg-khaki/30 min-h-[22rem]">
+            <div className="overflow-hidden bg-khaki/30 min-h-88">
               {imageSrc ? (
                 <img
                   src={imageSrc}

@@ -110,6 +110,77 @@
     "metadata": {}
   },
   {
+    "name": "beforeAfterSection",
+    "display_name": "Before After Section",
+    "description": "",
+    "created_at": "2026-03-16T15:49:59.253Z",
+    "updated_at": "2026-03-16T15:49:59.253Z",
+    "id": 155593110548836,
+    "schema": {
+      "eyebrow": {
+        "type": "text",
+        "pos": 0,
+        "id": "bas_eyebrow"
+      },
+      "subheading": {
+        "type": "text",
+        "pos": 1,
+        "id": "bas_subheading"
+      },
+      "beforeImage": {
+        "type": "asset",
+        "pos": 2,
+        "id": "bas_before_image",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "afterImage": {
+        "type": "asset",
+        "pos": 3,
+        "id": "bas_after_image",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "beforeAlt": {
+        "type": "text",
+        "pos": 4,
+        "id": "bas_before_alt"
+      },
+      "afterAlt": {
+        "type": "text",
+        "pos": 5,
+        "id": "bas_after_alt"
+      },
+      "beforeLabel": {
+        "type": "text",
+        "pos": 6,
+        "id": "bas_before_label"
+      },
+      "afterLabel": {
+        "type": "text",
+        "pos": 7,
+        "id": "bas_after_label"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Before After Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
     "name": "callToAction",
     "display_name": null,
     "description": "",

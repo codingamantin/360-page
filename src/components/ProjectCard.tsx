@@ -8,7 +8,7 @@ export default function ProjectCard({ blok }: { blok: ProjectCard }) {
 
   return (
     <div {...storyblokEditable(blok as SbBlokData)}>
-      <div className="overflow-hidden mb-5 aspect-[4/5] bg-cacao/60">
+      <div className="overflow-hidden mb-5 aspect-4/5 bg-cacao/60">
         {imgSrc ? (
           <img
             src={imgSrc}
