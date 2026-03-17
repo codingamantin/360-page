@@ -235,6 +235,91 @@
     "metadata": {}
   },
   {
+    "name": "contactSection",
+    "display_name": "Contact Section",
+    "description": "",
+    "created_at": "2026-03-16T16:07:16.546Z",
+    "updated_at": "2026-03-16T16:07:16.546Z",
+    "id": 155597359301023,
+    "schema": {
+      "eyebrow": {
+        "type": "text",
+        "pos": 0,
+        "id": "cs_eyebrow"
+      },
+      "headingLine1": {
+        "type": "text",
+        "pos": 1,
+        "id": "cs_heading_line_1"
+      },
+      "headingEmphasis": {
+        "type": "text",
+        "pos": 2,
+        "id": "cs_heading_emphasis"
+      },
+      "headingLine2": {
+        "type": "text",
+        "pos": 3,
+        "id": "cs_heading_line_2"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 4,
+        "id": "cs_description"
+      },
+      "emailLabel": {
+        "type": "text",
+        "pos": 5,
+        "id": "cs_email_label"
+      },
+      "email": {
+        "type": "text",
+        "pos": 6,
+        "id": "cs_email"
+      },
+      "phoneLabel": {
+        "type": "text",
+        "pos": 7,
+        "id": "cs_phone_label"
+      },
+      "phone": {
+        "type": "text",
+        "pos": 8,
+        "id": "cs_phone"
+      },
+      "studioLabel": {
+        "type": "text",
+        "pos": 9,
+        "id": "cs_studio_label"
+      },
+      "studio": {
+        "type": "text",
+        "pos": 10,
+        "id": "cs_studio"
+      },
+      "submitLabel": {
+        "type": "text",
+        "pos": 11,
+        "id": "cs_submit_label"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Contact Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
     "name": "feature",
     "display_name": null,
     "description": null,
@@ -264,17 +349,37 @@
     "metadata": {}
   },
   {
-    "name": "footer",
-    "display_name": null,
-    "description": "footer ",
-    "created_at": "2026-03-05T14:59:47.926Z",
-    "updated_at": "2026-03-05T15:12:59.146Z",
-    "id": 151687937755601,
+    "name": "finalCtaSection",
+    "display_name": "Final CTA Section",
+    "description": "",
+    "created_at": "2026-03-16T16:10:54.304Z",
+    "updated_at": "2026-03-16T16:10:54.304Z",
+    "id": 155598251241896,
     "schema": {
-      "footerItem": {
-        "type": "bloks",
+      "headingLine1": {
+        "type": "text",
         "pos": 0,
-        "id": "-GU0udMATm6f_YE3QF7C3w"
+        "id": "fcs_heading_line_1"
+      },
+      "headingEmphasis": {
+        "type": "text",
+        "pos": 1,
+        "id": "fcs_heading_emphasis"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "fcs_description"
+      },
+      "buttonLabel": {
+        "type": "text",
+        "pos": 3,
+        "id": "fcs_button_label"
+      },
+      "buttonHref": {
+        "type": "text",
+        "pos": 4,
+        "id": "fcs_button_href"
       }
     },
     "image": null,
@@ -284,7 +389,103 @@
     "is_nestable": true,
     "all_presets": [],
     "preset_id": null,
-    "real_name": "footer",
+    "real_name": "Final CTA Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "footer",
+    "display_name": "Footer",
+    "description": "",
+    "created_at": "2026-03-05T14:59:47.926Z",
+    "updated_at": "2026-03-17T12:54:03.945Z",
+    "id": 151687937755601,
+    "schema": {
+      "brandPrefix": {
+        "type": "text",
+        "pos": 0,
+        "id": "ft_brand_prefix"
+      },
+      "brandAccent": {
+        "type": "text",
+        "pos": 1,
+        "id": "ft_brand_accent"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "ft_description"
+      },
+      "navigationHeading": {
+        "type": "text",
+        "pos": 3,
+        "id": "ft_navigation_heading"
+      },
+      "footerItem": {
+        "type": "bloks",
+        "pos": 4,
+        "id": "-GU0udMATm6f_YE3QF7C3w",
+        "restrict_type": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "nav-item"
+        ],
+        "component_denylist": []
+      },
+      "connectHeading": {
+        "type": "text",
+        "pos": 5,
+        "id": "ft_connect_heading"
+      },
+      "email": {
+        "type": "text",
+        "pos": 6,
+        "id": "ft_email"
+      },
+      "phone": {
+        "type": "text",
+        "pos": 7,
+        "id": "ft_phone"
+      },
+      "location": {
+        "type": "text",
+        "pos": 8,
+        "id": "ft_location"
+      },
+      "instagramHref": {
+        "type": "text",
+        "pos": 9,
+        "id": "ft_instagram_href"
+      },
+      "pinterestHref": {
+        "type": "text",
+        "pos": 10,
+        "id": "ft_pinterest_href"
+      },
+      "copyrightText": {
+        "type": "text",
+        "pos": 11,
+        "id": "ft_copyright"
+      },
+      "craftedText": {
+        "type": "text",
+        "pos": 12,
+        "id": "ft_crafted"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Footer",
     "component_group_uuid": null,
     "color": null,
     "icon": null,
@@ -497,6 +698,49 @@
     "all_presets": [],
     "preset_id": null,
     "real_name": "heroSection",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "instagramSection",
+    "display_name": "Instagram Section",
+    "description": "",
+    "created_at": "2026-03-16T16:01:19.079Z",
+    "updated_at": "2026-03-16T16:01:19.079Z",
+    "id": 155595895140729,
+    "schema": {
+      "handle": {
+        "type": "text",
+        "pos": 0,
+        "id": "ig_handle"
+      },
+      "heading": {
+        "type": "text",
+        "pos": 1,
+        "id": "ig_heading"
+      },
+      "images": {
+        "type": "multiasset",
+        "pos": 2,
+        "id": "ig_images",
+        "filetypes": [
+          "images"
+        ]
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Instagram Section",
     "component_group_uuid": null,
     "color": null,
     "icon": null,

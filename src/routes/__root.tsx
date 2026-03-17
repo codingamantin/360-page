@@ -24,6 +24,9 @@ import ProjectsSection from '#/components/ProjectsSection'
 import AboutSection from '#/components/AboutSection'
 import ProcessSection from '#/components/ProcessSection'
 import BeforeAfterSection from '#/components/BeforeAfterSection'
+import InstagramSection from '#/components/InstagramSection'
+import ContactSection from '#/components/ContactSection'
+import FinalCtaSection from '#/components/FinalCtaSection'
 
 storyblokInit({
   accessToken: import.meta.env.VITE_STORYBLOK_DELIVERY_API_TOKEN,
@@ -45,6 +48,9 @@ storyblokInit({
     aboutSection: AboutSection,
     processSection: ProcessSection,
     beforeAfterSection: BeforeAfterSection,
+    instagramSection: InstagramSection,
+    contactSection: ContactSection,
+    finalCtaSection: FinalCtaSection,
   },
   apiOptions: {
     region: 'eu',

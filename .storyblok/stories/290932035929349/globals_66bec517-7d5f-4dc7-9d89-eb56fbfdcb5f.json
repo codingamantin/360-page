@@ -1,0 +1,138 @@
+{
+  "name": "globals",
+  "parent_id": null,
+  "group_id": "948824bb-e45a-46ba-b87d-5899931724d6",
+  "alternates": [],
+  "created_at": "2026-03-05T15:06:22.177Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2026-03-13T11:21:54.248Z",
+  "published_at": "2026-03-13T11:18:12.440Z",
+  "id": 151689552622166,
+  "uuid": "66bec517-7d5f-4dc7-9d89-eb56fbfdcb5f",
+  "is_folder": false,
+  "content": {
+    "_uid": "572ebfc8-119b-4a07-b131-af1f23a14a7d",
+    "footer": [
+      {
+        "_uid": "8846c5e7-8ef1-44ed-a8fd-050ef99db058",
+        "component": "footer",
+        "brandPrefix": "STUDIO",
+        "brandAccent": "360",
+        "description": "Timeless interiors shaped for modern living. Residential and commercial design studio.",
+        "navigationHeading": "Navigation",
+        "connectHeading": "Connect",
+        "email": "hello@studio360.com",
+        "phone": "+1 (555) 360-0000",
+        "location": "New York, NY",
+        "instagramHref": "#",
+        "pinterestHref": "#",
+        "copyrightText": "© 2026 Studio 360. All rights reserved.",
+        "craftedText": "Crafted with intention.",
+        "footerItem": [
+          {
+            "_uid": "a20627a3-a4d7-4fc2-aada-269ea42a4722",
+            "title": "Services",
+            "href": "services",
+            "component": "nav-item"
+          },
+          {
+            "_uid": "2e619529-de39-496f-90d3-3ddb7053d5be",
+            "title": "Projects",
+            "href": "projects",
+            "component": "nav-item"
+          },
+          {
+            "_uid": "810a19fa-f7cf-4b94-934a-e8f3c5e6f062",
+            "title": "About",
+            "href": "about",
+            "component": "nav-item"
+          },
+          {
+            "_uid": "f07ecf8e-4fd4-4ebb-8265-ca166284a9dc",
+            "title": "Process",
+            "href": "process",
+            "component": "nav-item"
+          },
+          {
+            "_uid": "3a7f7419-1fc4-4327-b13e-b2dc3f22126f",
+            "title": "Contact",
+            "href": "contact",
+            "component": "nav-item"
+          }
+        ]
+      }
+    ],
+    "header": [
+      {
+        "_uid": "a28bf0e9-dad3-4c08-b402-7b1de30753c0",
+        "logo": "//a.storyblok.com/f/290932035929349/816x214/378931db4f/nein-blau.png",
+        "items": [
+          {
+            "_uid": "09852686-eeda-4261-bbe6-f5f097da6c06",
+            "href": "features",
+            "title": "nav 1",
+            "component": "nav-item"
+          },
+          {
+            "_uid": "fac94448-9ca3-4146-9cc8-2a170020e82d",
+            "href": "about",
+            "title": "nav 2",
+            "component": "nav-item"
+          }
+        ],
+        "component": "header",
+        "callToAction": [
+          {
+            "_uid": "9ebae905-9d06-4c88-8151-c37e89c510ca",
+            "href": "#",
+            "title": "Book a consultation",
+            "component": "callToAction"
+          }
+        ]
+      }
+    ],
+    "component": "global-blogs"
+  },
+  "published": true,
+  "slug": "globals",
+  "path": null,
+  "full_slug": "globals",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": null,
+  "is_startpage": false,
+  "unpublished_changes": true,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "f4b850a8d67420e26fb5dbb892110724895d7e77",
+    "timestamp": "1773751996"
+  },
+  "pinned": false,
+  "breadcrumbs": [],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2026-03-13T11:18:12.440Z",
+  "last_author": {
+    "id": 151312780641783,
+    "userid": "amantin.qamilii@gmail.com",
+    "friendly_name": "amantin qamili"
+  },
+  "last_author_id": 151312780641783,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [],
+  "position": 0,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": 154464634367337,
+  "stage": null,
+  "favourite_for_user_ids": []
+}

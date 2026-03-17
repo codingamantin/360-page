@@ -55,36 +55,6 @@
         ]
       },
       {
-        "_uid": "2ff671d9-2f26-4e43-9982-2fbe7d3c6001",
-        "eyebrow": "About Us",
-        "headingLine1": "Design with",
-        "headingEmphasis": "intention",
-        "paragraph1": "Studio 360 is a boutique interior design practice founded on the belief that great spaces are shaped by listening - to materials, to light, and most importantly, to the people who inhabit them.",
-        "paragraph2": "Our approach balances timeless aesthetics with modern sensibility. We work across residential and commercial projects, bringing the same level of care and craft to a private home as we do to a signature restaurant.",
-        "paragraph3": "Every project begins with a conversation and ends with a space that feels unmistakably yours.",
-        "stats": [
-          {
-            "_uid": "d5c47c50-94fe-4921-865f-b58ca5f03231",
-            "value": "150+",
-            "label": "Projects",
-            "component": "aboutStat"
-          },
-          {
-            "_uid": "38b48e3f-5e7b-4d2e-951a-27d67f7e20ee",
-            "value": "12",
-            "label": "Years",
-            "component": "aboutStat"
-          },
-          {
-            "_uid": "f04e23e5-cc97-4ee5-9fba-28f6a3fdd32f",
-            "value": "8",
-            "label": "Designers",
-            "component": "aboutStat"
-          }
-        ],
-        "component": "aboutSection"
-      },
-      {
         "_uid": "236aa11e-9f49-436a-8577-857619b18391",
         "heading": "what we do",
         "service": [
@@ -159,6 +129,56 @@
         "subheading": "Our Services"
       },
       {
+        "_uid": "b5dfdba5-7f2c-4f71-bbde-8212bfaff28b",
+        "heading": "Portfolio",
+        "subheading": "Featured Projects",
+        "projects": [
+          {
+            "_uid": "e95c3cda-2e62-4b3d-b474-e7bb700a2b1e",
+            "title": "Marble & Walnut Kitchen",
+            "category": "Residential",
+            "desc": "A culinary space defined by natural marble and warm walnut cabinetry.",
+            "component": "projectCard"
+          },
+          {
+            "_uid": "d8bca80e-8cf5-4bfa-8a18-1a52829f3f4d",
+            "title": "Serene Master Suite",
+            "category": "Residential",
+            "desc": "Soft textures and muted tones create a sanctuary for rest.",
+            "component": "projectCard"
+          },
+          {
+            "_uid": "4a36e48f-bdbf-4f8e-9b1f-3b1d2b2ce447",
+            "title": "Executive Study",
+            "category": "Commercial",
+            "desc": "A private office where sophistication meets productivity.",
+            "component": "projectCard"
+          },
+          {
+            "_uid": "c3e314c2-f433-43c0-9d5a-6d4c66d4e6a5",
+            "title": "Stone Spa Bathroom",
+            "category": "Residential",
+            "desc": "Raw stone meets modern comfort in this spa-inspired retreat.",
+            "component": "projectCard"
+          },
+          {
+            "_uid": "b2481ab0-61ce-4d5c-b8da-d2c6f2b6b969",
+            "title": "Ember Restaurant",
+            "category": "Commercial",
+            "desc": "Curved forms and warm timber set the tone for intimate dining.",
+            "component": "projectCard"
+          },
+          {
+            "_uid": "6a93e0a5-5580-41e4-8ab4-0e0469e16929",
+            "title": "Skyline Penthouse",
+            "category": "Residential",
+            "desc": "Panoramic views framed by understated luxury.",
+            "component": "projectCard"
+          }
+        ],
+        "component": "projectsSection"
+      },
+      {
         "_uid": "f0a22be7-ed8e-4dbf-96ef-86c29ebd6aaa",
         "heading": "How We Work",
         "subheading": "Design Process",
@@ -209,6 +229,36 @@
         "component": "processSection"
       },
       {
+        "_uid": "2ff671d9-2f26-4e43-9982-2fbe7d3c6001",
+        "eyebrow": "About Us",
+        "headingLine1": "Design with",
+        "headingEmphasis": "intention",
+        "paragraph1": "Studio 360 is a boutique interior design practice founded on the belief that great spaces are shaped by listening - to materials, to light, and most importantly, to the people who inhabit them.",
+        "paragraph2": "Our approach balances timeless aesthetics with modern sensibility. We work across residential and commercial projects, bringing the same level of care and craft to a private home as we do to a signature restaurant.",
+        "paragraph3": "Every project begins with a conversation and ends with a space that feels unmistakably yours.",
+        "stats": [
+          {
+            "_uid": "d5c47c50-94fe-4921-865f-b58ca5f03231",
+            "value": "150+",
+            "label": "Projects",
+            "component": "aboutStat"
+          },
+          {
+            "_uid": "38b48e3f-5e7b-4d2e-951a-27d67f7e20ee",
+            "value": "12",
+            "label": "Years",
+            "component": "aboutStat"
+          },
+          {
+            "_uid": "f04e23e5-cc97-4ee5-9fba-28f6a3fdd32f",
+            "value": "8",
+            "label": "Designers",
+            "component": "aboutStat"
+          }
+        ],
+        "component": "aboutSection"
+      },
+      {
         "_uid": "f9f37b41-bb3f-4bf2-a70b-1f9d0f758266",
         "eyebrow": "Transformations",
         "subheading": "Before & After",
@@ -219,54 +269,36 @@
         "component": "beforeAfterSection"
       },
       {
-        "_uid": "b5dfdba5-7f2c-4f71-bbde-8212bfaff28b",
-        "heading": "Portfolio",
-        "subheading": "Featured Projects",
-        "projects": [
-          {
-            "_uid": "e95c3cda-2e62-4b3d-b474-e7bb700a2b1e",
-            "title": "Marble & Walnut Kitchen",
-            "category": "Residential",
-            "desc": "A culinary space defined by natural marble and warm walnut cabinetry.",
-            "component": "projectCard"
-          },
-          {
-            "_uid": "d8bca80e-8cf5-4bfa-8a18-1a52829f3f4d",
-            "title": "Serene Master Suite",
-            "category": "Residential",
-            "desc": "Soft textures and muted tones create a sanctuary for rest.",
-            "component": "projectCard"
-          },
-          {
-            "_uid": "4a36e48f-bdbf-4f8e-9b1f-3b1d2b2ce447",
-            "title": "Executive Study",
-            "category": "Commercial",
-            "desc": "A private office where sophistication meets productivity.",
-            "component": "projectCard"
-          },
-          {
-            "_uid": "c3e314c2-f433-43c0-9d5a-6d4c66d4e6a5",
-            "title": "Stone Spa Bathroom",
-            "category": "Residential",
-            "desc": "Raw stone meets modern comfort in this spa-inspired retreat.",
-            "component": "projectCard"
-          },
-          {
-            "_uid": "b2481ab0-61ce-4d5c-b8da-d2c6f2b6b969",
-            "title": "Ember Restaurant",
-            "category": "Commercial",
-            "desc": "Curved forms and warm timber set the tone for intimate dining.",
-            "component": "projectCard"
-          },
-          {
-            "_uid": "6a93e0a5-5580-41e4-8ab4-0e0469e16929",
-            "title": "Skyline Penthouse",
-            "category": "Residential",
-            "desc": "Panoramic views framed by understated luxury.",
-            "component": "projectCard"
-          }
-        ],
-        "component": "projectsSection"
+        "_uid": "4f30f432-b58b-4461-9db4-9bf6e7931e8b",
+        "handle": "@studio360",
+        "heading": "Follow Our Work",
+        "images": [],
+        "component": "instagramSection"
+      },
+      {
+        "_uid": "eb18f3ee-1be5-4261-8ea5-4e7f0f6a57ed",
+        "eyebrow": "Get in Touch",
+        "headingLine1": "Let's create",
+        "headingEmphasis": "something",
+        "headingLine2": "extraordinary",
+        "description": "Tell us about your project. We'd love to learn about your vision and explore how we can bring it to life.",
+        "emailLabel": "Email",
+        "email": "hello@studio360.com",
+        "phoneLabel": "Phone",
+        "phone": "+1 (555) 360-0000",
+        "studioLabel": "Studio",
+        "studio": "123 Design Avenue, New York, NY 10001",
+        "submitLabel": "Book a Consultation",
+        "component": "contactSection"
+      },
+      {
+        "_uid": "e9b6f237-3afe-4f14-b7f3-b950f0de1458",
+        "headingLine1": "Ready to transform",
+        "headingEmphasis": "your space?",
+        "description": "Every great space starts with a conversation. Let's discuss your vision and begin the journey toward your ideal interior.",
+        "buttonLabel": "Start Your Project",
+        "buttonHref": "#contact",
+        "component": "finalCtaSection"
       }
     ],
     "component": "page"
