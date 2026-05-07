@@ -60,12 +60,18 @@ storyblokInit({
 const THEME_INIT_SCRIPT = `(function(){try{var stored=window.localStorage.getItem('theme');var mode=(stored==='light'||stored==='dark'||stored==='auto')?stored:'auto';var prefersDark=window.matchMedia('(prefers-color-scheme: dark)').matches;var resolved=mode==='auto'?(prefersDark?'dark':'light'):mode;var root=document.documentElement;root.classList.remove('light','dark');root.classList.add(resolved);if(mode==='auto'){root.removeAttribute('data-theme')}else{root.setAttribute('data-theme',mode)}root.style.colorScheme=resolved;}catch(e){}})();`
 
 export const Route = createRootRoute({
-  loader: async () => {
+  loader: async ({ context }: { context: { request?: Request } }) => {
     const api = getStoryblokApi()
     const { data } = await api.get('cdn/stories/globals', {
       version: 'draft', // use 'published' in prod
     })
-    return data.story
+
+    const requestUrl = context?.request?.url ?? 'http://localhost:3002/'
+
+    return {
+      globalsStory: data.story,
+      canonicalUrl: new URL('/', requestUrl).toString(),
+    }
   },
   head: () => ({
     meta: [
@@ -77,10 +83,25 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Start Starter',
+        title: 'Studio 360 | Interior Design Studio',
+      },
+      {
+        name: 'description',
+        content:
+          'Studio 360 designs timeless residential and commercial interiors shaped for modern living.',
       },
     ],
     links: [
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/favicon.svg',
+      },
+      {
+        rel: 'icon',
+        href: '/favicon.ico',
+        sizes: 'any',
+      },
       {
         rel: 'stylesheet',
         href: appCss,
@@ -91,7 +112,7 @@ export const Route = createRootRoute({
 })
 
 function RootDocument({ children }: { children: React.ReactNode }) {
-  const globalsStory = Route.useLoaderData()
+  const { globalsStory, canonicalUrl } = Route.useLoaderData()
 
   // Your fields are arrays (max 1), so take the first
   const headerBlok = globalsStory?.content?.header?.[0]
@@ -100,6 +121,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+        <link rel="canonical" href={canonicalUrl} />
         <HeadContent />
       </head>
       <body className=" ">

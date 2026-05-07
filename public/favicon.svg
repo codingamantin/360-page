@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Studio 360 favicon">
+  <rect width="64" height="64" rx="16" fill="#1e1712" />
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="none" stroke="#b39b7a" stroke-width="2" />
+  <path d="M16 20h32v4H16zm0 8h26v4H16zm0 8h32v4H16z" fill="#f4efe8" opacity="0.95" />
+  <text x="32" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#b39b7a">360</text>
+</svg>

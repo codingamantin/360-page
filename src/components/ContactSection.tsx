@@ -6,6 +6,8 @@ import type { SbBlokData } from '@storyblok/react'
 import type { ContactSection as ContactSectionBlok } from '../../.storyblok/types/290932035929349/storyblok-components'
 
 export default function ContactSection({ blok }: { blok: ContactSectionBlok }) {
+  const formspreeEndpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT?.trim() ?? ''
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -14,8 +16,53 @@ export default function ContactSection({ blok }: { blok: ContactSectionBlok }) {
     message: '',
   })
 
-  const handleSubmit = (e: FormEvent) => {
+  const [submissionState, setSubmissionState] = useState<
+    'idle' | 'submitting' | 'success' | 'error'
+  >('idle')
+  const [submissionMessage, setSubmissionMessage] = useState('')
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+
+    if (!formspreeEndpoint) {
+      setSubmissionState('error')
+      setSubmissionMessage('Add VITE_FORMSPREE_ENDPOINT to enable submissions.')
+      return
+    }
+
+    setSubmissionState('submitting')
+    setSubmissionMessage('')
+
+    const form = e.currentTarget
+    const body = new FormData(form)
+
+    try {
+      const response = await fetch(formspreeEndpoint, {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+        },
+        body,
+      })
+
+      if (!response.ok) {
+        throw new Error('Submission failed')
+      }
+
+      form.reset()
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        projectType: '',
+        message: '',
+      })
+      setSubmissionState('success')
+      setSubmissionMessage('Thanks. Your consultation request has been sent.')
+    } catch {
+      setSubmissionState('error')
+      setSubmissionMessage('Something went wrong. Please try again in a moment.')
+    }
   }
 
   const inputClasses =
@@ -87,8 +134,10 @@ export default function ContactSection({ blok }: { blok: ContactSectionBlok }) {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <form onSubmit={handleSubmit} className="space-y-8">
+              <input type="hidden" name="_subject" value="Studio 360 consultation request" />
               <input
                 type="text"
+                name="name"
                 placeholder="Your Name"
                 required
                 value={formData.name}
@@ -103,6 +152,7 @@ export default function ContactSection({ blok }: { blok: ContactSectionBlok }) {
 
               <input
                 type="email"
+                name="email"
                 placeholder="Email Address"
                 required
                 value={formData.email}
@@ -117,6 +167,7 @@ export default function ContactSection({ blok }: { blok: ContactSectionBlok }) {
 
               <input
                 type="tel"
+                name="phone"
                 placeholder="Phone Number"
                 value={formData.phone}
                 onChange={(e) =>
@@ -129,6 +180,7 @@ export default function ContactSection({ blok }: { blok: ContactSectionBlok }) {
               />
 
               <select
+                name="projectType"
                 value={formData.projectType}
                 onChange={(e) =>
                   setFormData({
@@ -169,6 +221,7 @@ export default function ContactSection({ blok }: { blok: ContactSectionBlok }) {
               </select>
 
               <textarea
+                name="message"
                 placeholder="Tell us about your project..."
                 rows={4}
                 value={formData.message}
@@ -183,10 +236,21 @@ export default function ContactSection({ blok }: { blok: ContactSectionBlok }) {
 
               <button
                 type="submit"
+                disabled={submissionState === 'submitting'}
                 className="w-full font-body text-sm tracking-widest uppercase py-4 bg-taupe text-leather hover:bg-khaki transition-colors duration-300"
               >
-                {blok.submitLabel ?? 'Book a Consultation'}
+                {submissionState === 'submitting'
+                  ? 'Sending...'
+                  : blok.submitLabel ?? 'Book a Consultation'}
               </button>
+
+              {submissionMessage ? (
+                <p
+                  className={`font-body text-sm ${submissionState === 'success' ? 'text-khaki' : 'text-rose-300'}`}
+                >
+                  {submissionMessage}
+                </p>
+              ) : null}
             </form>
           </motion.div>
         </div>

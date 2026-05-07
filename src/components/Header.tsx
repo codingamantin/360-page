@@ -20,7 +20,13 @@ export default function Header({ blok }: { blok: HeaderBlok }) {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-20">
         <Link to="/" className="shrink-0">
-          <img className="h-6 w-auto select-none md:h-8" src={blok.logo} />
+          {blok.logo ? (
+            <img className="h-6 w-auto select-none md:h-8" src={blok.logo} />
+          ) : (
+            <span className="font-display text-2xl tracking-wider text-foreground">
+              STUDIO <span className="text-taupe">360</span>
+            </span>
+          )}
         </Link>
         <nav className="hidden md:flex items-center gap-10">
           {navItems.map((nestedBlok) => (
