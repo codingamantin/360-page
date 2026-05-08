@@ -9,6 +9,7 @@
     "dev": "vite dev --port 3002",
     "build": "vite build",
     "preview": "vite preview",
+    "preview:cf": "wrangler --cwd dist pages dev",
     "test": "vitest run",
     "lint": "eslint",
     "format": "prettier --check .",
