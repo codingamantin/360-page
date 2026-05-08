@@ -28,7 +28,7 @@ export default function FinalCtaSection({
               {blok.headingEmphasis ?? 'your space?'}
             </span>
           </h2>
-          <p className="font-body text-base text-taupe font-light max-w-lg mx-auto mb-10">
+          <p className="font-body text-base text-taupe font-light max-w-lg mx-auto  mb-10">
             {blok.description ??
               "Every great space starts with a conversation. Let's discuss your vision and begin the journey toward your ideal interior."}
           </p>
