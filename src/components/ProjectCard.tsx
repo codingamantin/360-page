@@ -1,13 +1,14 @@
 import { storyblokEditable } from '@storyblok/react'
 import type { SbBlokData } from '@storyblok/react'
+import { Link } from '@tanstack/react-router'
 import type { ProjectCard } from '../../.storyblok/types/290932035929349/storyblok-components'
 
 export default function ProjectCard({ blok }: { blok: ProjectCard }) {
   const imgSrc = blok.img?.filename ?? blok.img?.src ?? null
   const imgAlt = blok.img?.alt ?? blok.title ?? ''
-
-  return (
-    <div {...storyblokEditable(blok as SbBlokData)}>
+  const projectHref = blok.slug ? `/projects/${blok.slug}` : null
+  const content = (
+    <>
       <div className="overflow-hidden mb-5 aspect-4/5 bg-cacao/60">
         {imgSrc ? (
           <img
@@ -36,6 +37,18 @@ export default function ProjectCard({ blok }: { blok: ProjectCard }) {
       {blok.desc ? (
         <p className="font-body text-sm text-taupe font-light">{blok.desc}</p>
       ) : null}
+    </>
+  )
+
+  return (
+    <div {...storyblokEditable(blok as SbBlokData)}>
+      {projectHref ? (
+        <Link to={projectHref} className="block">
+          {content}
+        </Link>
+      ) : (
+        content
+      )}
     </div>
   )
 }

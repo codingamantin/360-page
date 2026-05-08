@@ -67,10 +67,14 @@ export const Route = createRootRoute({
     })
 
     const requestUrl = context?.request?.url ?? 'http://localhost:3002/'
+    const canonicalUrl = new URL(requestUrl)
+
+    canonicalUrl.search = ''
+    canonicalUrl.hash = ''
 
     return {
       globalsStory: data.story,
-      canonicalUrl: new URL('/', requestUrl).toString(),
+      canonicalUrl: canonicalUrl.toString(),
     }
   },
   head: () => ({
